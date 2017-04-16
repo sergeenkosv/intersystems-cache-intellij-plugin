@@ -14,10 +14,12 @@ import com.intellij.psi.TokenType;
 %type IElementType
 
 
-%eof{  return;
+%eof{
+  return;
 %eof}
 
-%{ int bcounter=0;
+%{
+ int bcounter=0;
 %}
 
 /* digits */
